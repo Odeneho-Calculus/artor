@@ -1,5 +1,5 @@
 """
-Global settings for the AI Art Generator.
+Global settings for the Artor.
 """
 import os
 import torch

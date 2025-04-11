@@ -1,5 +1,5 @@
 """
-User interface components for AI Art Generator.
+User interface components for Artor.
 """
 from app.interface.gradio_ui import ArtGeneratorUI, launch_ui
 

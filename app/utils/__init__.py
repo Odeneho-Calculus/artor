@@ -1,5 +1,5 @@
 """
-Utility functions for AI Art Generator.
+Utility functions for Artor.
 """
 from app.utils.image_processing import (
     resize_image,

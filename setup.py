@@ -7,14 +7,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="ai-art-generator",
+    name="artor",
     version="0.1.0",
-    author="AI Art Team",
-    author_email="info@aiartteam.com",
+    author="culusTech",
+    author_email="calculus069@gmail.com",
     description="An AI-powered art generator using Stable Diffusion and style transfer",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/username/ai-art-generator",
+    url="https://github.com/Odeneho-Calculus/artor",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -41,7 +41,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "ai-art-generator=main:main",
+            "artor=main:main",
         ],
     },
 )

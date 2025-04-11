@@ -1,5 +1,5 @@
 """
-Gradio-based user interface for the AI Art Generator.
+Gradio-based user interface for the Artor.
 """
 import io
 import logging
@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 
 class ArtGeneratorUI:
-    """Class to handle the Gradio UI for the AI Art Generator."""
+    """Class to handle the Gradio UI for the Artor."""
     
     def __init__(self):
         """Initialize the UI components and models."""
@@ -147,9 +147,9 @@ class ArtGeneratorUI:
 
     def build_interface(self):
         """Build and return the Gradio interface."""
-        with gr.Blocks(title="AI Art Generator") as interface:
+        with gr.Blocks(title="Artor") as interface:
             gr.Markdown("""
-            # 🎨 AI Art Generator
+            # 🎨 Artor
             
             Create stunning AI-generated artwork using text prompts and style transfer.
             """)

@@ -1,4 +1,4 @@
-# 🎨 AI Art Generator
+# 🎨 ARTOR
 
 A powerful AI-powered tool that combines Stable Diffusion for text-to-image generation with neural style transfer capabilities to create stunning, customized artwork.
 
@@ -21,8 +21,8 @@ A powerful AI-powered tool that combines Stable Diffusion for text-to-image gene
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-art-generator.git
-cd ai-art-generator
+git clone https://github.com/Odeneho-Calculus/artor.git
+cd artor
 
 # Create and activate a virtual environment
 python -m venv venv

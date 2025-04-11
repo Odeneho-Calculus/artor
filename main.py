@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-AI Art Generator - Main entry point
+Artor - Main entry point
 """
 import argparse
 import logging
@@ -23,7 +23,7 @@ def setup_logging():
 
 def parse_args():
     """Parse command line arguments."""
-    parser = argparse.ArgumentParser(description="AI Art Generator")
+    parser = argparse.ArgumentParser(description="Artor")
     parser.add_argument(
         "--port", type=int, default=7860, help="Port to run the Gradio interface on"
     )
@@ -61,7 +61,7 @@ def main():
         logger.warning("For image generation, consider using a smaller resolution and fewer steps.")
     
     # Launch the UI
-    logger.info("Starting AI Art Generator...")
+    logger.info("Starting Artor...")
     try:
         launch_ui(port=args.port, share=args.share)
     except Exception as e:
