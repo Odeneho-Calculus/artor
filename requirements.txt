@@ -1,0 +1,18 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+diffusers>=0.20.0
+transformers>=4.30.0
+accelerate>=0.20.0
+ftfy>=6.1.1
+scipy>=1.10.1
+Pillow>=9.5.0
+numpy>=1.24.0
+
+# UI dependencies
+gradio>=3.40.0
+
+# Development dependencies
+pytest>=7.3.1
+black>=23.3.0
+isort>=5.12.0
